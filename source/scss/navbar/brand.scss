@@ -1,0 +1,65 @@
+@mixin base_content{
+    display: block; 
+    margin: 0 auto; 
+    padding: 40px 0; 
+    width: 80%; 
+    max-width: 1200px;
+}
+
+@mixin img-padrao{
+    border: none; 
+    max-width: 100%; 
+    vertical-align: middle;
+} 
+
+h2{
+    font-size: 1.8em;
+    font-weight: 600; 
+    color: $color-h2;
+}
+
+
+ul{list-style: none;}
+img{
+    @include img-padrao;
+}
+a{text-decoration: none; color: $color-a;}
+
+/*BOX GERAL*/
+.content{
+    @include base_content;
+}
+
+.clear{clear: both;}
+
+/*HEADER*/
+.main_header{
+    font-size: 0.875em;
+}
+
+.main_header .content{
+    padding: 20px 0;
+}
+
+.main_logo{float: left;}
+
+.main_menu{
+    float: right;
+    margin-top: 15px;
+}
+
+.main_menu li{
+    display: inline-block;
+}
+
+.main_menu a{
+    display: inline-block;
+    padding: 10px 15px;
+    color: $color-main_menu-a;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.main_menu a:hover{
+    background: $background-main_menu-a-hover;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "atividade-css-inteligente-com-sass",
+  "version": "1.0.0",
+  "description": "Atividade CSS Inteligente Com SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "atividade",
+    "workflow"
+  ],
+  "author": "Iradson Bomfim dos Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
